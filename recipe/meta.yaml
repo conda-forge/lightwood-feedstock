@@ -1,5 +1,5 @@
 {% set name = "lightwood" %}
-{% set version = "22.8.1.0" %}
+{% set version = "22.8.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/lightwood-{{ version }}.tar.gz
-  sha256: 43cce4b290ac275206d8f12c506d34b6b74f4aa8413815a693fc26a50de48fed
+  sha256: 5aafc302da9449259d75569c3d9fd3d5be77f8df3ac379f392bc55a7d9ad66c5
 
 build:
   noarch: python
